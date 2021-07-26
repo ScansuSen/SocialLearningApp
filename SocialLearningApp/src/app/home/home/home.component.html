@@ -1,0 +1,46 @@
+<div class="container mt-5">
+  
+  <div class="d-flex justify-content-center row .col-md-push-50">
+      <div class="col-md-8">
+          <div class="d-flex flex-column comment-section">
+              <div class="bg-white p-2">
+                  <div class="d-flex flex-row user-info"><img class="rounded-circle" src="https://image.ibb.co/jw55Ex/def_face.jpg" width="40">
+                      <div class="d-flex flex-column justify-content-start ml-2"><span class="d-block font-weight-bold name"></span><span class="date text-black-50"></span></div>
+                  </div>
+                  <div class="question div">
+            
+                    <li *ngFor = "let questions of tasks">
+                     
+                        <p style="font-size: 16px;" > {{questions.description}}</p> 
+                      
+                    </li>   
+                  
+                </div>
+                
+              </div>
+
+
+              <div class="bg-white p-2" >
+                <div class="d-flex flex-row user-info"><img class="rounded-circle" src="https://image.ibb.co/jw55Ex/def_face.jpg" width="40">
+                    <div class="d-flex flex-column justify-content-start ml-2"><span class="d-block font-weight-bold name"></span><span class="date text-black-50"> </span></div>
+                </div>2020
+                <div class="question div">
+                  <li *ngFor = "let answer of answer">
+                    <div class="cevap divi">
+                      <p style="font-size: 16px;" > {{answer.description}}</p> 
+                    </div> 
+                  </li>   
+                 
+                
+              </div>
+              
+            </div>
+             
+              <div class="bg-light p-10">
+                  <div class="d-flex flex-row align-items-start"><img class="rounded-circle" src="https://image.ibb.co/jw55Ex/def_face.jpg" width="40"><textarea class="form-control ml-1 shadow-none textarea"></textarea></div>
+                  <div class="mt-2 text-right"><button  class="btn btn-primary btn-sm shadow-none" style="width: 75px; height: 30px;" type="button">Cevapla</button><button class="btn btn-outline-primary btn-sm ml-1 shadow-none" style="width: 75px; height: 30px;" type="button">İptal</button></div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>

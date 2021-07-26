@@ -1,0 +1,90 @@
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+<router-outlet></router-outlet>
+<!-- new login start -->        
+  <section class="login-block">
+  <div class="container">
+  <div class="row">    
+  <div class="col-md-4 banner-sec">   
+  <div class="signup__overlay"></div>          
+  <div class="banner">
+  <div id="demo" class="carousel slide carousel-fade" data-ride="carousel">
+  <ol class="carousel-indicators">
+  <li data-target="#demo" data-slide-to="0" class="active"></li>
+  <li data-target="#demo" data-slide-to="1"></li>
+  </ol>
+  <div class="carousel-inner">
+  <div class="carousel-item active">
+    <img src="@/assets/images/footer_logo.png" class="img-fluid">
+  <h1>Soru Sormak İçin Giriş Yap </h1>
+  </div>
+  <div class="carousel-item">
+    <img src="@/assets/images/footer_logo.png" class="img-fluid">
+  <h1>DISCOVER GROWTH</h1>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  <div class="col-md-8 login-sec">
+  <h2 class="text-center">Giriş Yap</h2>
+  <form class="login100-form validate-form">
+  <div class="wrap-input100 validate-input">
+  <span class="label-input100">Email</span>
+  <input class="input100" type="text" name="Email" placeholder="Email Adresinizi Giriniz ">
+  <span class="focus-input100"></span>
+  </div>
+
+  <div class="wrap-input100 validate-input">
+  <span class="label-input100">Şifre</span>
+  <input class="input100" type="password" name="pass" placeholder="Şifrenizi Giriniz">
+  <span class="focus-input100 password"></span>
+  </div>
+
+  <div class="text-right p-t-8 p-b-31">
+  <a href="#">
+ Şifremi Unuttum!
+  </a>
+  </div>
+
+  <div class="container-login100-form-btn">
+  <div class="wrap-login100-form-btn">
+  <button class="btn btn-primary mr-2">
+  Giriş Yap
+  </button>
+  
+    <button  class="btn btn-primary mr-2" routerLink="/Kayıt" routerLinkActive="active">
+Kayıt Ol
+
+    </button>
+  
+  </div>
+  </div>
+
+  <div class="txt1 text-center p-t-54 p-b-20">
+  <span>
+  
+  </span>
+  </div>
+
+  <div class="flex-c-m">
+  <a href="#" class="login100-social-item bg1">
+  <i class="fa fa-facebook"></i>
+  </a>
+  <a href="#" class="login100-social-item bg3">
+  <i class="fa fa-google"></i>
+  </a>
+  </div>
+  </form>
+
+  <div class="copy-text">Created with
+  <i class="fa fa-heart"></i> by
+  <a href="http://grafreez.com">OOTOO.com</a>
+  </div>
+  </div>
+  </div>
+  </div>
+  </section>
+<!-- new login end -->
